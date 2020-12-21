@@ -1,27 +1,27 @@
 {
-  "name": "homepage-vue",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "element-plus": "^1.0.1-alpha.12",
-    "normalize.css": "^8.0.1",
-    "vue": "^3.0.0-0",
-    "vue-router": "^4.0.0-0",
-    "vuex": "^4.0.0-0"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.8",
-    "@vue/cli-plugin-router": "^4.5.8",
-    "@vue/cli-plugin-vuex": "^4.5.8",
-    "@vue/cli-service": "^4.5.8",
-    "@vue/compiler-sfc": "^3.0.2",
-    "compression-webpack-plugin": "^6.0.5",
-    "sass": "^1.28.0",
-    "sass-loader": "^10.0.5"
-  }
+    "name": "homepage-vue",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build"
+    },
+    "dependencies": {
+        "core-js": "^3.8.1",
+        "element-plus": "^1.0.1-beta.10",
+        "normalize.css": "^8.0.1",
+        "vue": "^3.0.0-0",
+        "vue-router": "^4.0.0-0",
+        "vuex": "^4.0.0-0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^4.5.9",
+        "@vue/cli-plugin-router": "^4.5.9",
+        "@vue/cli-plugin-vuex": "^4.5.9",
+        "@vue/cli-service": "^4.5.9",
+        "@vue/compiler-sfc": "^3.0.4",
+        "compression-webpack-plugin": "^6.1.1",
+        "sass": "^1.30.0",
+        "sass-loader": "^10.1.0"
+    }
 }
