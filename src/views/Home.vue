@@ -44,14 +44,26 @@
                             </a>
                             <p>一个用 Vue 实现的开源网页小工具，不定期更新，欢迎到 github 给颗star</p>
                             <span>#<span class="vue">Vue.js</span></span>
-                            <span>#<span class="html">html</span></span>
-                            <span>#<span class="css">css</span></span>
-                            <span>#<span class="element">element-UI</span></span>
+                            <span>#<span class="html">Canvas</span></span>
+                            <span>#<span class="element">Element Plus</span></span>
                         </el-card>
                     </el-col>
                     <el-col :span="span">
                         <el-card shadow="hover">
-                            <a href="http://deal.kooriookami.top" target="_blank">
+                            <a href="https://designer.kooriookami.top" target="_blank">
+                                <el-image :src="require('@/assets/image/designer.png')"></el-image>
+                                <h3>页面设计器</h3>
+                            </a>
+                            <p>页面设计器是一个拖拽式页面生成引擎，以 JSON 格式存储页面数据。</p>
+                            <span>#<span class="vue">Vue.js</span></span>
+                            <span>#<span class="html">Vue.Draggable</span></span>
+                            <span>#<span class="css">Vant</span></span>
+                            <span>#<span class="element">Element Plus</span></span>
+                        </el-card>
+                    </el-col>
+                    <el-col :span="span">
+                        <el-card shadow="hover">
+                            <a href="https://deal.kooriookami.top" target="_blank">
                                 <el-image :src="require('@/assets/image/deal.png')"></el-image>
                                 <h3>校园搜（毕业设计）</h3>
                             </a>
@@ -64,7 +76,7 @@
                     </el-col>
                     <el-col :span="span">
                         <el-card shadow="hover">
-                            <a href="http://danmaku.kooriookami.top" target="_blank">
+                            <a href="https://danmaku.kooriookami.top" target="_blank">
                                 <el-image :src="require('@/assets/image/danmaku.png')"></el-image>
                                 <h3>弹幕主页</h3>
                             </a>
@@ -77,7 +89,7 @@
                     </el-col>
                     <el-col :span="span">
                         <el-card shadow="hover">
-                            <a href="http://www.kooriookami.top/nethardyun" target="_blank">
+                            <a href="https://www.kooriookami.top/nethardyun" target="_blank">
                                 <el-image :src="require('@/assets/image/nethardyun.png')"></el-image>
                                 <h3>网难云主页</h3>
                             </a>
@@ -90,26 +102,13 @@
                     </el-col>
                     <el-col :span="span">
                         <el-card shadow="hover">
-                            <a href="http://bilibili.kooriookami.top" target="_blank">
+                            <a href="https://bilibili.kooriookami.top" target="_blank">
                                 <el-image :src="require('@/assets/image/bilibili.png')"></el-image>
                                 <h3>仿B站主页</h3>
                             </a>
                             <p>一个仿照B站主页的静态页面。使用 vue-cli 开发，需挂载服务器运行。</p>
                             <span>#<span class="vue">Vue.js</span></span>
                             <span>#<span class="webpack">webpack</span></span>
-                            <span>#<span class="html">html</span></span>
-                            <span>#<span class="css">css</span></span>
-                            <span>#<span class="element">element-UI</span></span>
-                        </el-card>
-                    </el-col>
-                    <el-col :span="span">
-                        <el-card shadow="hover">
-                            <a href="http://font.kooriookami.top" target="_blank">
-                                <el-image :src="require('@/assets/image/font.png')"></el-image>
-                                <h3>K细黑字体</h3>
-                            </a>
-                            <p>K细黑是一款细体无衬线西文字体，包含常用字符和部分特殊字符。</p>
-                            <span>#<span class="vue">Vue.js</span></span>
                             <span>#<span class="html">html</span></span>
                             <span>#<span class="css">css</span></span>
                             <span>#<span class="element">element-UI</span></span>
@@ -141,7 +140,7 @@
         <footer>
             <div class="foot-container">
                 <p class="copyright">Copyright © 2018 kooriookami. All Rights Reserved.</p>
-                <a class="beian" href="http://www.beian.miit.gov.cn" target="_blank">苏ICP备18056833号</a>
+                <a class="beian" href="https://beian.miit.gov.cn" target="_blank">苏ICP备18056833号</a>
             </div>
         </footer>
     </div>
